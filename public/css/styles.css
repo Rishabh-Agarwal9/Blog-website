@@ -13,6 +13,9 @@ h1{
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #EB455F;
 }
+img{
+	width: 56%;
+}
 .bg-img{
 	text-align: center;
 }
@@ -27,13 +30,18 @@ h1{
     background-color: #2B3467;
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #EB455F !important;
 }
 
 .home{
 	margin-top: 20px;
 }
 
+@media(max-width: 770px){
+	img{
+	width: 100%;
+	}
+}
 #contact{
 	font-size: 1.8rem;
 	text-align: center;
